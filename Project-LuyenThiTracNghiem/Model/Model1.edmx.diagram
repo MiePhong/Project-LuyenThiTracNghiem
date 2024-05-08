@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d44ab76b54cb4b039c611f0cc7402cdb" Name="Diagram1" ZoomLevel="69">
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.CAUHOI" Width="1.5" PointX="11.375" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.DETHI" Width="1.5" PointX="10.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.GIANGVIEN" Width="1.5" PointX="4.875" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.HOCVIEN" Width="1.5" PointX="8.875" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.LOPHOC" Width="1.5" PointX="12.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.MONHOC" Width="1.5" PointX="2.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.QUANLYCHUONG" Width="1.5" PointX="7" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.Quantrivien" Width="1.5" PointX="2.375" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LuyenThiTracNghiemModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_CAUHOI_DETHI" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_DETHI_MONHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_DETHI_QUANLYCHUONG" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_HOCVIEN_DETHI" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_GIANGVIEN_LOPHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_GIANGVIEN_Quantrivien" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_HOCVIEN_Quantrivien" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_LOPHOC_HOCVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_MONHOC_QUANTRIVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_QUANLYCHUONG_MONHOC" ManuallyRouted="false" />
+        <AssociationConnector Association="LuyenThiTracNghiemModel.FK_QUANLYCHUONG_Quantrivien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
